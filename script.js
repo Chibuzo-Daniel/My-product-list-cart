@@ -5,45 +5,45 @@ const products = [
        name: "Waffle with Berries", 
        category: "Waffle", 
        price: 6.50, 
-       image: "/images/image-waffle-desktop.jpg",
-         icon: "/images/icon-add-to-cart.svg",
-          thumbnail: "/images/image-waffle-thumbnail.jpg" 
+       image: "./images/image-waffle-desktop.jpg",
+         icon: "./images/icon-add-to-cart.svg",
+          thumbnail: "./images/image-waffle-thumbnail.jpg" 
      }, 
     {
        id: 2, 
        name: "Vanilla Bean Creme Brulee", 
        category: "creme Brulee",
        price: 7.0, 
-       image: "/images/image-creme-brulee-desktop.jpg",
-         icon: "/images/icon-add-to-cart.svg", 
-         thumbnail: "/images/image-creme-brulee-thumbnail.jpg"
+       image: "./images/image-creme-brulee-desktop.jpg",
+         icon: "./images/icon-add-to-cart.svg", 
+         thumbnail: "./images/image-creme-brulee-thumbnail.jpg"
      }, 
     {
        id: 3, 
        name: "Macaron Mix of Five", 
        category: "Macaron", 
        price: 8.0, 
-       image: "/images/image-macaron-desktop.jpg",
-         icon: "/images/icon-add-to-cart.svg" ,
-          thumbnail: "/images/image-macaron-thumbnail.jpg" 
+       image: "./images/image-macaron-desktop.jpg",
+         icon: "./images/icon-add-to-cart.svg" ,
+          thumbnail: "./images/image-macaron-thumbnail.jpg" 
      }, 
     {
        id: 4, 
        name: "Classic Tiramisu", 
        category: "Tiramisu", 
        price: 5.50, 
-       image: "/images/image-tiramisu-desktop.jpg",
-         icon: "/images/icon-add-to-cart.svg" ,
-          thumbnail: "/images/image-tiramisu-thumbnail.jpg"
+       image: "./images/image-tiramisu-desktop.jpg",
+         icon: "./images/icon-add-to-cart.svg" ,
+          thumbnail: "./images/image-tiramisu-thumbnail.jpg"
      }, 
     {
        id: 5, 
        name: " Pistachio Baklava ", 
        category: "Baklava", 
        price: 4.0, 
-       image: "/images/image-baklava-desktop.jpg",
-         icon: "/images/icon-add-to-cart.svg",
-          thumbnail: "/images/image-baklava-thumbnail.jpg"
+       image: "./images/image-baklava-desktop.jpg",
+         icon: "./images/icon-add-to-cart.svg",
+          thumbnail: "./images/image-baklava-thumbnail.jpg"
      }, 
      
     {
@@ -51,9 +51,9 @@ const products = [
        name: "Lemon Meringue Pie", 
        category: "Meringue", 
        price: 5.0, 
-       image: "/images/image-meringue-desktop.jpg" ,
-         icon: "/images/icon-add-to-cart.svg",
-          thumbnail: "/images/image-meringue-thumbnail.jpg"
+       image: "./images/image-meringue-desktop.jpg" ,
+         icon: "./images/icon-add-to-cart.svg",
+          thumbnail: "./images/image-meringue-thumbnail.jpg"
      }, 
      
 
@@ -62,9 +62,9 @@ const products = [
        name: "Red Velvet Cake", 
        category: "Cake", 
        price: 4.50, 
-       image: "/images/image-cake-desktop.jpg" ,
-       icon: "/images/icon-add-to-cart.svg" ,
-        thumbnail: "/images/image-cake-thumbnail.jpg"
+       image: "./images/image-cake-desktop.jpg" ,
+       icon: "./images/icon-add-to-cart.svg" ,
+        thumbnail: "./images/image-cake-thumbnail.jpg"
      }, 
      
 
@@ -73,9 +73,9 @@ const products = [
        name: "Salted Caramel Brownie", 
        category: "Brownie", 
        price: 5.50, 
-       image: "/images/image-brownie-desktop.jpg",
-         icon: "/images/icon-add-to-cart.svg",
-          thumbnail: "/images/image-brownie-thumbnail.jpg"
+       image: "./images/image-brownie-desktop.jpg",
+         icon: "./images/icon-add-to-cart.svg",
+          thumbnail: "./images/image-brownie-thumbnail.jpg"
      }, 
      
 
@@ -84,9 +84,9 @@ const products = [
        name: "Vanilla Panna Cotta", 
        category: "Panna Cotta", 
        price: 6.50, 
-       image: "/images/image-panna-cotta-desktop.jpg",
-       icon: "/images/icon-add-to-cart.svg",
-        thumbnail: "/images/image-panna-cotta-thumbnail.jpg"
+       image: "./images/image-panna-cotta-desktop.jpg",
+       icon: "./images/icon-add-to-cart.svg",
+        thumbnail: "./images/image-panna-cotta-thumbnail.jpg"
      }        
 ]
 
