@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product-list-cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="product-container">
+  
+  <div class="products">
+    <h1>Dessert</h1>
+    <div class="product-grid">
+        <!-- Product items will be rendered here -->
+    
+  </div>
+  </div>
+  <div class="cart">
+    <div>
+       <h1>Your Cart (<span id="cart-count">0</span>)</h1>
+    <div class="cart-item">
+      <img src="/images/illustration-empty-cart.svg" alt="">
+      <span> Your added items will appear here</span>
+    </div>
+    <div class="confirm"></div>
+    </div>
+   
+  </div>
+</div>
+
+<div class="new-window"></div>
+
+
+<div class="overlay-container hide">
+  <div class="overlay">
+                <img src="/images/icon-order-confirmed.svg" alt="">
+                <h1>Order Confirmed</h1>
+                <p>we hope you enjoy your food!</p>
+                <div class="overlay-products">
+                  
+                  <div class="overlay-product">
+
+                    <div class="overlay-left">
+                       <img src="/images/image-baklava-thumbnail.jpg" alt="" class="overlay-img">
+                       <div>
+                        <span id="product-name">Waffle</span> <br>
+                        <span id="product-count">1x</span>
+                        <span id="product-price">@0.00</span>
+                       </div>
+                    </div>
+
+                    <div id="overlay-right">
+                    <span id="calculated-price">$5.50</span>
+                    </div>
+                    
+                  </div>
+                  
+                 
+                </div>
+
+       <div id="down">
+               <div id="order">
+                  <p>Order Total</p>
+                  <span class ="overlay-order-total">$46.50</span>
+               </div>
+              
+            <button id="btn-new-order"> Start New Order</button>
+
+       </div>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
