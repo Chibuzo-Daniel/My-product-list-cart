@@ -266,7 +266,7 @@ function renderCart() {
                   <span class ="order-total">$${total}</span>
                </div>
   
-               <div id="carbon"><img src="/images/icon-carbon-neutral.svg" alt="carbon neutral delivery">This is a <strong>carbon-neutral</strong> delivery</div>
+               <div id="carbon"><img src="./images/icon-carbon-neutral.svg" alt="carbon neutral delivery">This is a <strong>carbon-neutral</strong> delivery</div>
                <button id="btn-confirm"> Confirm Order</button>
 
             </div>
@@ -277,7 +277,7 @@ function renderCart() {
 
       cartItems.innerHTML = `
       <div class="empty-state">
-         <img src="/images/illustration-empty-cart.svg" alt="empty cart">
+         <img src="./images/illustration-empty-cart.svg" alt="empty cart">
          <p>Your added items will appear here</p>
       </div>
     `;
