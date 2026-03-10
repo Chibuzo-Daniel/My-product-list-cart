@@ -123,9 +123,9 @@ function displayProducts() {
 
       buttomHTML= `
       <div class="qty-selector">
-            <p class="minus" data-id="${product.id}"><img src="/images/icon-decrement-quantity.svg" alt=" The decrement button"></p>
+            <p class="minus" data-id="${product.id}"><img src="./images/icon-decrement-quantity.svg" alt=" The decrement button"></p>
             <span>${itemInCart.quantity}</span>
-            <p class="plus" data-id="${product.id}"><img src="/images/icon-increment-quantity.svg" alt="The increment button"></p>
+            <p class="plus" data-id="${product.id}"><img src="./images/icon-increment-quantity.svg" alt="The increment button"></p>
         </div>
       `;
 
